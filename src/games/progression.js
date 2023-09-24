@@ -1,6 +1,5 @@
 import { getRandomNum } from '../utility.js';
 import runGameLogic, { roundsNumber } from '../gameLogic.js';
-import { promptLoop } from 'readline-sync';
 
 const task = 'What number is missing in the progression?';
 // smart suggestion, progression that is less than 5 in length would be harder to guess 
