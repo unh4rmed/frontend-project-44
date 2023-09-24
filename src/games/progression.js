@@ -2,11 +2,11 @@ import { getRandomNum } from '../utility.js';
 import runGameLogic, { roundsNumber } from '../gameLogic.js';
 
 const task = 'What number is missing in the progression?';
-// smart suggestion, progression that is less than 5 in length would be harder to guess 
+// smart suggestion, progression that is less than 5 in length would be harder to guess
 const progressionLength = 10;
 
 const generateArithmeticProgressionBase = () => {
-  const step = getRandomNum(1, 10);  
+  const step = getRandomNum(1, 10);
   const progressionStartNumber = getRandomNum(1, 100);
 
   const resultProgression = [];

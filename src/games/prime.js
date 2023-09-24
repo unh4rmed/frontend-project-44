@@ -12,7 +12,7 @@ const isItPrime = (number) => {
       return false;
     }
   }
-  return true
+  return true;
 };
 
 // very nice and compact roundGen
@@ -30,5 +30,4 @@ const runBrainPrime = () => {
   return runGameLogic(rounds, task);
 };
 
-// there was a big unsolved issue with me not using 'npm link', that made some games unable to run without 'make'
 export default runBrainPrime;
