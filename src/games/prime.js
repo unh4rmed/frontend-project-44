@@ -30,4 +30,5 @@ const runBrainPrime = () => {
   return runGameLogic(rounds, task);
 };
 
+// there was a big unsolved issue with me not using 'npm link', that made some games unable to run without 'make'
 export default runBrainPrime;
